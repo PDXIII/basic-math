@@ -5,18 +5,24 @@
   "dependencies": {
     "axios": "^0.16.2",
     "lodash": "^4.17.4",
+    "material-ui": "^1.0.0-beta.31",
+    "material-ui-icons": "^1.0.0-beta.17",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-scripts": "1.0.14"
+    "react-scripts": "1.0.14",
+    "typeface-fira-sans": "0.0.54"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "styleguide": "styleguidist server",
+    "styleguide:build": "styleguidist build"
   },
   "devDependencies": {
     "gh-pages": "^1.0.0",
+    "react-styleguidist": "^6.2.2",
     "tachyons": "^4.8.1"
   }
 }
